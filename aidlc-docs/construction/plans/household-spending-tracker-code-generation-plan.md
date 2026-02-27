@@ -77,20 +77,20 @@ transacta/
 - **Files**: `package.json`, `.gitignore`, `README.md`, `.env.example`
 
 #### 1.3 Create Backend Package Configuration
-- [ ] Create `backend/package.json` with dependencies (express, apollo-server-express, sqlite3, @tensorflow/tfjs-node, graphql, typescript)
-- [ ] Create `backend/tsconfig.json` with strict TypeScript configuration
-- [ ] Create `backend/.eslintrc.json` for code linting
-- [ ] Create `backend/.prettierrc` for code formatting
+- [x] Create `backend/package.json` with dependencies (express, apollo-server-express, sqlite3, @tensorflow/tfjs-node, graphql, typescript)
+- [x] Create `backend/tsconfig.json` with strict TypeScript configuration
+- [x] Create `backend/.eslintrc.json` for code linting
+- [x] Create `backend/.prettierrc` for code formatting
 - **User Stories**: Foundation for all stories
 - **Files**: `backend/package.json`, `backend/tsconfig.json`, `backend/.eslintrc.json`, `backend/.prettierrc`
 
 #### 1.4 Create Frontend Package Configuration
-- [ ] Create `frontend/package.json` with dependencies (vue, vue-router, @apollo/client, graphql, typescript, vite)
-- [ ] Create `frontend/tsconfig.json` with strict TypeScript configuration
-- [ ] Create `frontend/vite.config.ts` for Vite build configuration
-- [ ] Create `frontend/.eslintrc.json` for code linting
-- [ ] Create `frontend/.prettierrc` for code formatting
-- [ ] Create `frontend/index.html` as entry HTML file
+- [x] Create `frontend/package.json` with dependencies (vue, vue-router, @apollo/client, graphql, typescript, vite)
+- [x] Create `frontend/tsconfig.json` with strict TypeScript configuration
+- [x] Create `frontend/vite.config.ts` for Vite build configuration
+- [x] Create `frontend/.eslintrc.json` for code linting
+- [x] Create `frontend/.prettierrc` for code formatting
+- [x] Create `frontend/index.html` as entry HTML file
 - **User Stories**: Foundation for all stories
 - **Files**: `frontend/package.json`, `frontend/tsconfig.json`, `frontend/vite.config.ts`, `frontend/.eslintrc.json`, `frontend/.prettierrc`, `frontend/index.html`
 
@@ -99,23 +99,23 @@ transacta/
 ### 2. Database Setup
 
 #### 2.1 Create Database Schema
-- [ ] Create `backend/src/database/schema.sql` with all table definitions (transactions, categories, classification_history, ml_model_metadata)
-- [ ] Include indexes for performance optimization
-- [ ] Include triggers for updated_at timestamps and category statistics
+- [x] Create `backend/src/database/schema.sql` with all table definitions (transactions, categories, classification_history, ml_model_metadata)
+- [x] Include indexes for performance optimization
+- [x] Include triggers for updated_at timestamps and category statistics
 - **User Stories**: Foundation for all data-related stories
 - **Files**: `backend/src/database/schema.sql`
 
 #### 2.2 Create Database Connection Module
-- [ ] Create `backend/src/database/connection.ts` for SQLite connection management
-- [ ] Implement connection pooling and error handling
-- [ ] Enable foreign keys and set pragmas
+- [x] Create `backend/src/database/connection.ts` for SQLite connection management
+- [x] Implement connection pooling and error handling
+- [x] Enable foreign keys and set pragmas
 - **User Stories**: Foundation for all data-related stories
 - **Files**: `backend/src/database/connection.ts`
 
 #### 2.3 Create Database Initialization Script
-- [ ] Create `backend/src/database/init.ts` to initialize database from schema
-- [ ] Include seed data for default categories
-- [ ] Handle database migration logic
+- [x] Create `backend/src/database/init.ts` to initialize database from schema
+- [x] Include seed data for default categories
+- [x] Handle database migration logic
 - **User Stories**: 1.1, 1.2
 - **Files**: `backend/src/database/init.ts`
 
