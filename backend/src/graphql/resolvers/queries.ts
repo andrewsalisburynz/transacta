@@ -76,11 +76,13 @@ export const queryResolvers = {
         summary.totalAmount += t.amount;
         summary.transactionCount += 1;
 
+        // Only count expenses and income in totals, not transfers
         if (t.category_type === 'expense') {
           totalExpenses += Math.abs(t.amount);
-        } else {
+        } else if (t.category_type === 'income') {
           totalIncome += t.amount;
         }
+        // Transfers are tracked but not included in expense/income totals
       });
 
       const categorySummaries = Array.from(categoryMap.values()).map(s => ({

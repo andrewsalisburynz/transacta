@@ -71,6 +71,12 @@ const DEFAULT_CATEGORIES = [
     color: '#00BCD4',
   },
   {
+    name: 'Transfer',
+    description: 'Money transfers between accounts',
+    category_type: 'transfer',
+    color: '#607D8B',
+  },
+  {
     name: 'Other',
     description: 'Miscellaneous expenses',
     category_type: 'expense',

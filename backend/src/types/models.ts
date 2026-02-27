@@ -47,7 +47,8 @@ export interface Category {
 
 export enum CategoryType {
   EXPENSE = 'expense',
-  INCOME = 'income'
+  INCOME = 'income',
+  TRANSFER = 'transfer'
 }
 
 export interface ClassificationHistoryEntry {

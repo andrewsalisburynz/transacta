@@ -15,6 +15,7 @@ export const typeDefs = `#graphql
   enum CategoryType {
     EXPENSE
     INCOME
+    TRANSFER
   }
 
   enum ClassificationMethod {

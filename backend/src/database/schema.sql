@@ -82,7 +82,7 @@ CREATE TABLE IF NOT EXISTS categories (
   updated_at TEXT NOT NULL DEFAULT (datetime('now')),
   
   -- Check Constraints
-  CHECK (category_type IN ('expense', 'income')),
+  CHECK (category_type IN ('expense', 'income', 'transfer')),
   CHECK (transaction_count >= 0),
   CHECK (length(name) > 0 AND length(name) <= 100)
 );
